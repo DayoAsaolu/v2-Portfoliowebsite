@@ -1,0 +1,136 @@
+header {
+	align-self: center;
+	margin: 0 auto;
+	width: 12rem;
+	background-color: white;
+	padding: 1.5rem;
+	border: 1px solid white;
+	box-shadow: 2px 2px 0px #999;
+    text-align: center;
+    border-start-end-radius: rgb(102, 255, 0);
+}
+
+header p {
+    font-family: Courier New;
+
+}
+
+#header-container a {
+    text-decoration: none;
+}
+
+
+#header-container {
+	display: flex;
+	height: 60vh;
+	min-height: 18rem;
+	background-color: #5b76ec;
+}
+
+#header-container p {
+    font: xx-large;
+}
+
+#projects {
+	margin: 2rem 0;
+	display: flex;
+}
+
+table {
+	align-self: center;
+	margin: 0 auto;
+	padding: 1rem;
+    color: rgb(255, 255, 255);
+    background: rgb(171, 91, 218);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table a {
+	color: #d7c6ea;
+}
+
+table a:hover {
+	color: #c9ade5;
+}
+
+td {
+	padding: 0 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+	thead {
+		display: none;
+	}
+	td:first-child {
+		margin-top: 1rem;
+	}
+	td {
+		padding: 0;
+		display: block;
+        text-align: right;
+        font-family: Courier New;
+	}
+	td::before {
+		margin-right: 12px;
+		content: attr(data-label);
+        float: left;
+        font-family: Courier New;
+	}
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 10px;
+    background-color: #5a72dd;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+#projects caption {
+    color: green;
+    font-weight: bold;
+    font-family: Courier New;
+    font-size: x-large;
+}
+
+#resume {
+    margin: 2rem 0;
+	display: flex;
+}
+
+#resume caption {
+    color: black;
+    font-weight: bold;
+    font-family: Courier New;
+    font-size: x-large;
+}
+
+
+
+  .grid-container img {
+      border-radius: 70%;
+  }
+
+  .desc {
+      font-size: x-small;
+  }
+  
+.hr {
+    
+    height: 20px;
+    width: 10px;
+    border-color: red;
+
+  }
+
