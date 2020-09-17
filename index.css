@@ -24,7 +24,14 @@ header p {
 	display: flex;
 	height: 60vh;
 	min-height: 18rem;
-	background-color: #5b76ec;
+    /* background-color: #5b76ec; */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+
 }
 
 #header-container p {
@@ -41,8 +48,16 @@ table {
 	margin: 0 auto;
 	padding: 1rem;
     color: rgb(255, 255, 255);
-    background: rgb(171, 91, 218);
-    font-family: 'Courier New', Courier, monospace;
+    /* background: rgb(171, 91, 218); */
+ 
+
+
+background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
 }
 
 table a {
