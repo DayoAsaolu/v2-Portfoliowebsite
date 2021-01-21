@@ -90,7 +90,10 @@ td {
 		content: attr(data-label);
         float: left;
         font-family: Courier New;
-	}
+    }
+    div {
+        font: small
+    }
 }
 
 
@@ -101,13 +104,14 @@ td {
     grid-gap: 10px;
     background-color: #5a72dd;
     padding: 10px;
+    
   }
   
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 10px 0;
-    font-size: medium;
+    font-size: x-small;
     font-family: 'Courier New', Courier, monospace;
   }
 
@@ -116,7 +120,11 @@ td {
     color: green;
     font-weight: bold;
     font-family: Courier New;
-    font-size: x-large;
+    font-size: large;
+}
+
+.projects > tr{
+    font-size: small;
 }
 
 #resume {
